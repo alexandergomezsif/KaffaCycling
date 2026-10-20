@@ -1,0 +1,40 @@
+KAFFA · Sitio de prelanzamiento (español + inglés)
+==================================================
+
+Contenido de la carpeta sitio_KAFFA (es lo que se sube al hosting):
+- Páginas en español en la raíz y en inglés en la carpeta en/, con los mismos nombres de archivo:
+  index.html                                          Inicio (animación de los 4 elementos, logo animado de 3 s)
+  tienda.html                                         Tienda con velo «Muy pronto»
+  nuestra-historia.html                               Nuestra historia (primera persona, 10 capítulos, gráficos)
+  blog.html                                           Blog
+  por-que-nos-llamamos-kaffa.html                     Artículo: el nombre (video del logo con leyendas)
+  coleccion-elementos-fuego-agua-viento-tierra.html   Artículo: la colección
+  cafe-de-concordia-antioquia.html                    Artículo: el café
+  contacto.html                                       Contacto y lista de acceso anticipado
+- robots.txt y sitemap.xml: para Google (incluyen las versiones ES y EN).
+- img/: imágenes, íconos, imagen para compartir, videos del logo y hero.js
+  (hero.js solo se usa cuando se abren los archivos con doble clic, sin servidor).
+
+Para verla ya: abre sitio_KAFFA/index.html con doble clic.
+
+Publicar
+1. Compra el dominio (por ejemplo kaffacycling.com).
+2. Sube el CONTENIDO de sitio_KAFFA a un hosting estático (Netlify, Vercel, Cloudflare Pages,
+   GitHub Pages o cualquier hosting con cPanel).
+3. Si el dominio final NO es https://www.kaffacycling.com, reemplaza esa dirección en todos los
+   .html (también los de en/), en robots.txt y en sitemap.xml.
+4. Da de alta el sitio en Google Search Console y envía https://TU-DOMINIO/sitemap.xml
+5. En el hosting, activa HTTPS y, si lo permite, cabeceras de seguridad (ver AUDITORIA_CODIGO.md).
+
+Pendiente antes de salir al público
+- Símbolo ®: el encabezado muestra «KAFFA®». Úsalo solo si la SIC ya concedió el registro;
+  si no, hay que quitarlo (en EE. UU. el registro es ante la USPTO).
+- Formulario real de correo + política de tratamiento de datos (Ley 1581 de 2012), si se recogen datos.
+- Botón de WhatsApp (opcional).
+- Reemplazar los mockups hechos con IA por fotografía real cuando exista.
+- Precios y fecha de reserva (hoy dicen «Por anunciar»).
+
+Datos confirmados por Alex (14-oct-2026)
+Café de 500 g con cada jersey, especificaciones técnicas de las telas, datos del café y badana,
+«Hernán Zuluaga "HZ"», «perfil deportivo», accidente de 2018 y condición médica (capítulo III) y
+la mención a «Fucking PR» (capítulo II) se publican tal cual.
